@@ -1,0 +1,15 @@
+{
+  "name": "ETH-to-ERC20-Swap",
+  "version": "1.0.0",
+  "description": "",
+  "author": "didi",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "node_modules/.bin/truffle test"
+  },
+  "dependencies": {
+    "truffle": "^5.0.21",
+    "truffle-privatekey-provider": "^1.1.0",
+    "web3": "^1.0.0-beta.55"
+  }
+}
