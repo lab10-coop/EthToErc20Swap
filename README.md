@@ -1,7 +1,7 @@
 # About
 
-Implements an Ethereum contract which allows easy swapping of ETH for [ATS20](https://etherscan.io/token/0xe41dd6e41f8f9962c5103d95d95f5d9b82d90fdf).  
-It is deployed on the Ethereum mainnet at address [0xcc1320a48c76385e17e4e1c759ce8ea1d11687c2](https://etherscan.io/address/0xcc1320a48c76385e17e4e1c759ce8ea1d11687c2).  
+Implements an Ethereum contract which allows easy swapping of ETH for an [ERC20](https://eips.ethereum.org/EIPS/eip-20) token.  
+An instance of it which allows swapping of ETH for [ATS20](https://etherscan.io/token/0xe41dd6e41f8f9962c5103d95d95f5d9b82d90fdf) is deployed on the Ethereum mainnet at address [0xcc1320a48c76385e17e4e1c759ce8ea1d11687c2](https://etherscan.io/address/0xcc1320a48c76385e17e4e1c759ce8ea1d11687c2).  
 
 This facility was created for Ethereum community members who are looking for a convenient way to get hold of some ATS(20), e.g. in order to interact with the ARTIS blockchain.
 
@@ -26,7 +26,7 @@ This will spawn a test blockchain in the background and run the tests in the _te
 # ATS20 and ATS
 
 ATS is the native token of the [ARTIS](https://artis.eco/) blockchain.  
-ATS20 is an [ERC20](https://eips.ethereum.org/EIPS/eip-20) token (more specifically, also a [ERC677](https://github.com/ethereum/EIPs/issues/677) token) which is a representation of ATS on the Ethereum mainnet.  
+ATS20 is an ERC20 token (more specifically, also a [ERC677](https://github.com/ethereum/EIPs/issues/677) token) which is a representation of ATS on the Ethereum mainnet.  
 
 ATS20 tokens can be created only by transferring ATS from ARTIS Σ1 to Ethereum via the bridge set up for that purpose.    
 That bridge consists of a set of [contracts](https://github.com/lab10-coop/artis-bridge-contracts) and of instances of an [oracle application](https://github.com/lab10-coop/artis-bridge-oracle) which are run by the so-called _bridge authorities_.  
